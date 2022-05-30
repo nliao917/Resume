@@ -99,8 +99,8 @@ a:active {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 abbr[title],
@@ -215,6 +215,32 @@ img {
   border-style: none;
   border-radius:50%;
 
+}
+
+.projectimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.projectimage img {
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 30px;
+  height: 300px;
+  width: 96%;
+
+}
+
+.projectexp {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projectexp div {
+  height: 100px;
+  width: 48%%;
 }
 
 svg {
@@ -6357,6 +6383,7 @@ button.bg-dark:focus {
 
 .d-flex {
   display: flex !important;
+  padding-bottom: 40px;
 }
 
 .d-inline-flex {
@@ -7599,10 +7626,6 @@ button.bg-dark:focus {
   margin-right: 1rem !important;
 }
 
-.mb-3,
-.my-3 {
-  margin-bottom: 1rem !important;
-}
 
 .ml-3,
 .mx-3 {
@@ -7647,10 +7670,6 @@ button.bg-dark:focus {
   margin-right: 3rem !important;
 }
 
-.mb-5,
-.my-5 {
-  margin-bottom: 3rem !important;
-}
 
 .ml-5,
 .mx-5 {
@@ -9690,7 +9709,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-mily: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 .text-justify {
@@ -10051,6 +10070,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #343a40;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -10145,4 +10165,3 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
